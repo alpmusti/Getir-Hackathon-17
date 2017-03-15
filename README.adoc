@@ -3,8 +3,54 @@
 *Detayları `http://hackathon.getir.com/` adresinde bulunan Task-3 görevini gerçekleştiren uygulama.*
 [%heartbreaks]
 
-:imagesdir:resimler
+:imagesdir: resimler
 
 #### Uygulamanın özeti :
 Bu uygulama ile `https://getir-bitaksi-hackathon.herokuapp.com/getElements` adresine aşağıdaki parametrelerle bir *POST* isteğinde bulunuyoruz.
+[%heartbreaks]
+*Parametreler :*
+[source , json]
+----
+{
+    {
+      "email" : "katilimciEmail",
+      "name" : "katilimciIsmi",
+      "gsm" : "katilimciGsm"
+    }
+}
+----
+Bu parametrelerle yapılan isteğe aşağıdaki gibi bir cevap dönmektedir : 
+[source , json]
+----
+{
+      "code": 0,
+      "msg": "Success",
+      "elements": [{
+            "type": "circle",
+            "xPosition": 320,
+            "yPosition": 41,
+            "r": 46,
+            "color": "a70267"
+            },
+            {
+            "type": "rectangle",
+            "xPosition": 184,
+            "yPosition": 399,
+            "width": 37,
+            "height": 208,
+            "color": "93a42a"
+            }
+] }
+----
 
+Daha sonra uygulamamızda buradaki JSON cevabın içierisindeki *type* key değerine göre şeklimize karar veriyoruz. Bunun ardından hangi şeklin çizdirileceğine karar verdikten sonra uygun parametreleri (daire için : r , dikdörtgen için : width,height gibi) ilgili fonksiyona gönderiyoruz.
+
+*Çember çizdirmek için `drawCircle` ;
+dikdörtgen çizdirmek için `drawRect` fonksiyonu kullanılmıştır.*
+
+#### Kullanılan Kütüphaneler :
+
+Projede 2 adet kütüphane kullanılmıştır ve bunlar Carthage yardımı ile projeye dahil edilmiştir. `Bkz : Cartfile`
+
+* *SwiftyJSON* : JSON parse etmek için kullanılmıştır.
+* *Alamofire* : HTTP Request için kullanılmıştır.
