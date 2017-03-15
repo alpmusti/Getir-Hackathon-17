@@ -50,7 +50,7 @@ dikdörtgen çizdirmek için `drawRect` fonksiyonu kullanılmıştır.*
 
 #### Kullanılan Kütüphaneler :
 
-Projede 2 adet kütüphane kullanılmıştır ve bunlar Carthage yardımı ile projeye dahil edilmiştir. `Bkz : Cartfile`
+Projede 2 adet kütüphane kullanılmıştır ve bunlar https://github.com/Carthage/Carthage[Carthage] yardımı ile projeye dahil edilmiştir. `Bkz : Cartfile`
 
 * *SwiftyJSON* : JSON parse etmek için kullanılmıştır.
 * *Alamofire* : HTTP Request için kullanılmıştır.
