@@ -1,3 +1,10 @@
 # Getir-Hackathon-17
 
 *Detayları `http://hackathon.getir.com/` adresinde bulunan Task-3 görevini gerçekleştiren uygulama.*
+[%heartbreaks]
+
+:imagesdir:resimler
+
+#### Uygulamanın özeti :
+Bu uygulama ile `https://getir-bitaksi-hackathon.herokuapp.com/getElements` adresine aşağıdaki parametrelerle bir *POST* isteğinde bulunuyoruz.
+
