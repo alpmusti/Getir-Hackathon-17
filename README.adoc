@@ -55,9 +55,10 @@ Projede 2 adet kütüphane kullanılmıştır ve bunlar https://github.com/Carth
 * *SwiftyJSON* : JSON parse etmek için kullanılmıştır.
 * *Alamofire* : HTTP Request için kullanılmıştır.
 
-Uygulamadan ekran görüntüleri : 
-
+Uygulamadan ekran görüntüleri :
+`
 image:1.png[1,180,320,align="left"]
 image:2.png[2,180,320,align="left"]
 image:3.png[3,180,320,align="left"]
 image:4.png[4,180,320,align="left"]
+
