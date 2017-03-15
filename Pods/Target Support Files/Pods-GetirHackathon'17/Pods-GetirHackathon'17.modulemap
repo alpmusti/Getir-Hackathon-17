@@ -1,0 +1,6 @@
+framework module Pods_GetirHackathon_17 {
+  umbrella header "Pods-GetirHackathon'17-umbrella.h"
+
+  export *
+  module * { export * }
+}
