@@ -1,7 +1,7 @@
 # Getir-Hackathon-17
 
 *Detayları `http://hackathon.getir.com/` adresinde bulunan Task-3 görevini gerçekleştiren uygulama.*
-[%heartbreaks]
+[%hardbreaks]
 
 :imagesdir: resimler
 
@@ -45,7 +45,7 @@ Bu parametrelerle yapılan isteğe aşağıdaki gibi bir cevap dönmektedir :
 
 Daha sonra uygulamamızda buradaki JSON cevabın içierisindeki *type* key değerine göre şeklimize karar veriyoruz. Bunun ardından hangi şeklin çizdirileceğine karar verdikten sonra uygun parametreleri (daire için : r , dikdörtgen için : width,height gibi) ilgili fonksiyona gönderiyoruz.
 
-*Çember çizdirmek için `drawCircle` ;
+*Çember çizdirmek için `drawCircle` ; +
 dikdörtgen çizdirmek için `drawRect` fonksiyonu kullanılmıştır.*
 
 #### Kullanılan Kütüphaneler :
@@ -55,10 +55,9 @@ Projede 2 adet kütüphane kullanılmıştır ve bunlar https://github.com/Carth
 * *SwiftyJSON* : JSON parse etmek için kullanılmıştır.
 * *Alamofire* : HTTP Request için kullanılmıştır.
 
-Uygulamadan ekran görüntüleri :
-`
+## Ekran görüntüleri :
+
 image:1.png[1,180,320,align="left"]
 image:2.png[2,180,320,align="left"]
 image:3.png[3,180,320,align="left"]
 image:4.png[4,180,320,align="left"]
-
