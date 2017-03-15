@@ -1,2 +1,3 @@
 # Getir-Hackathon-17
-Getir&amp;Bitaksi tarafından düzenlenecek Hackathon 2017 için Task-3'de verilen görevin implementasyonu
+
+=== Detayları `http://hackathon.getir.com/` adresinde bulunan Task-3 görevini gerçekleştiren uygulama.
